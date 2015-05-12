@@ -1,5 +1,15 @@
 I am importing many of my old libraries and tools, when I get to it, I will update this README specifically for github, then I will remove this line.
 
+
+
+Description
+
+GimpPy uses img maps & an img as the input, output is a report.py file used to
+generate PDFs, the out files may run solo or chained together to make more 
+complex multi page reports. Input required is a dict with vals for flds you 
+have mapped on your img.
+
+
 This tool is being made to help automatically generate python files,
 that generate PDF files.
 
