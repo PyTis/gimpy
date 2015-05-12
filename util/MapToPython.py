@@ -22,7 +22,7 @@ Please do not use this directly, use gimPy.
 """
 
 
-import os, binascii, mx.DateTime
+import os, binascii, datetime
 from cStringIO import StringIO
 
 from util import MapHTMLParser
@@ -49,7 +49,7 @@ from cStringIO import StringIO
 # Note, you must have report lab installed
 from reportlab.pdfgen import canvas
 
-''' % dict(name=prog_name, datestamp=mx.DateTime.today().strftime('%Y%m%d'))
+''' % dict(name=prog_name, datestamp=datetime.datetime.now().strftime('%Y%m%d'))
     ###########################################################################
     def __init__(self, path, my_name, map_source, img_source=None, dpi=150,
                  fontname=None, fontsize=None):
@@ -163,7 +163,7 @@ class %(class_name)s(object):
        f.close()
        return handle
 
-""" % dict(image=img_source,date=mx.DateTime.today().strftime('%Y%m%d'),fname=iname)
+""" % dict(image=img_source,date=datetime.datetime.now().strftime('%Y%m%d'),fname=iname)
 
     ###########################################################################
     def getPreRender(self,dpi):

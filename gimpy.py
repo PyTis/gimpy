@@ -133,10 +133,10 @@ LICENCE
     GPL
 
 COPYRIGHT
-    (c)2006 Zertis Technologies, LLC
+    (c)2006 - 2015 PyTis.com
 
 AUTHOR
-    jlee@zertis.net
+	Josh Lee (a.k.a. PyTis)
 """
 
 import glob, os, sys
