@@ -1,7 +1,11 @@
-I am importing many of my old libraries and tools, when I get to it, I will update this README specifically for github, then I will remove this line.
+I am importing many of my old libraries and tools, when I get to it, I will
+update this README specifically for github, then I will remove this line.
 
-Suppose you are digitizing a doctors office, they have paper based forms, and they want your code to create reports, mirroring these forms, but output in PDF format.  This tool was created as the fastest way to go from having been handed a paper form, to python code that will output the report as a PDF.
-The Fastest way to convert forms into PDF reports.  
+Suppose you are digitizing a doctors office, they have paper based forms, and
+they want your code to create reports, mirroring these forms, but output in PDF
+format.  This tool was created as the fastest way to go from having been handed
+a paper form, to python code that will output the report as a PDF.  The Fastest
+way to convert forms into PDF reports.  
 
 Description
 
